@@ -1,0 +1,25 @@
+lighthouse beacon_node \
+  --debug-level=info \
+  --datadir=./consensus-data \
+  --testnet-dir=./output/custom_config_data \
+  --disable-enr-auto-update \
+  --enr-address=127.0.0.1 \
+  --enr-udp-port=9000 \
+  --enr-tcp-port=9000 \
+  --listen-address=0.0.0.0 \
+  --port=9000 \
+  --http \
+  --http-address=0.0.0.0 \
+  --http-port=4000 \
+  --http-allow-sync-stalled \
+  --slots-per-restore-point=32 \
+  --disable-packet-filter \
+  --execution-endpoint=http://localhost:8551 \
+  --jwt-secrets=./output/jwt/jwtsecret \
+  --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 \
+  --subscribe-all-subnets \
+  --metrics \
+  --metrics-address=0.0.0.0 \
+  --metrics-allow-origin=* \
+  --metrics-port=5054 \
+  --terminal-total-difficulty-override=0
