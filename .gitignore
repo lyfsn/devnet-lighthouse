@@ -2,8 +2,11 @@
 
 output
 validator-keys
-execution-data
-consensus-data
+execution-data*
+consensus-data*
 
+data
 geth
 deposit
+
+el-cl-genesis-data
