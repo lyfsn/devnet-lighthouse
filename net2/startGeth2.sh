@@ -15,7 +15,7 @@
   --allow-insecure-unlock \
   --nat=extip:135.181.19.55 \
   --verbosity=3 \
-  --authrpc.port=8651 \
+  --authrpc.port=8659 \
   --authrpc.addr=0.0.0.0 \
   --authrpc.vhosts=* \
   --authrpc.jwtsecret=./el-cl-genesis-data/jwt/jwtsecret \
