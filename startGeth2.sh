@@ -26,5 +26,4 @@
   --metrics.port=9101 \
   --port=30403 \
   --networkid=28356 \
-  --bootnodes=enode://9b4a59d25fa4997f1ddfc931c4124a943c780ffc51e2d6e9937a664f87bdbe75f2f9c33c6cc577b217e7456681da08951f296e6321fe854b2ce38a4f60824d51@127.0.0.1:30303
 

@@ -22,6 +22,4 @@ lighthouse beacon_node \
   --metrics-address=127.0.0.1 \
   --metrics-allow-origin=* \
   --metrics-port=5154 \
-  --trusted-peers=16Uiu2HAm7azi5CAu8PSnFmm1MEgd6RpcZKJZ8zsj1ncdzxCFAHuZ \
-  --boot-nodes=enr:-MW4QI7YlucMksqw--aFrQS7VX41aUVBPpxF7Rhft-8Yhd9NPly0i03hG_r2CZRq-LsPUb8MfmMPD0C4tqnDWMPl5OWB2IdhdHRuZXRziAAAAAAAAAAAhGV0aDKQM-xnSEAAADj__________4JpZIJ2NIJpcIR_AAABhHF1aWOCIymJc2VjcDI1NmsxoQK0r6W1XTmZII3R6s_OTs23T26m-5DI0kiP0NkbsnlikIhzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA \
 
