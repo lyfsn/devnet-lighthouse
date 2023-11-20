@@ -16,7 +16,7 @@
   --nat=extip:135.181.19.55 \
   --verbosity=3 \
   --authrpc.port=8659 \
-  --authrpc.addr=0.0.0.0 \
+  --authrpc.addr=127.0.0.1 \
   --authrpc.vhosts=* \
   --authrpc.jwtsecret=./el-cl-genesis-data/jwt/jwtsecret \
   --syncmode=full \
