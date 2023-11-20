@@ -10,7 +10,7 @@ lighthouse beacon_node \
   --port=9109 \
   --http \
   --http-address=127.0.0.1 \
-  --http-port=4100 \
+  --http-port=4109 \
   --http-allow-sync-stalled \
   --slots-per-restore-point=32 \
   --disable-packet-filter \
