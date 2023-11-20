@@ -12,3 +12,4 @@ deposit
 el-cl-genesis-data
 .idea
 mergeGenesis
+*.tar.gz
