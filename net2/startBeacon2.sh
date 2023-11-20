@@ -3,23 +3,23 @@ lighthouse beacon_node \
   --datadir=./consensus-data-2 \
   --testnet-dir=./el-cl-genesis-data/custom_config_data \
   --disable-enr-auto-update \
-  --enr-address=127.0.0.1 \
+  --enr-address=135.181.19.55 \
   --enr-udp-port=9109 \
   --enr-tcp-port=9109 \
-  --listen-address=127.0.0.1 \
+  --listen-address=135.181.19.55 \
   --port=9109 \
   --http \
-  --http-address=127.0.0.1 \
+  --http-address=135.181.19.55 \
   --http-port=4109 \
   --http-allow-sync-stalled \
   --slots-per-restore-point=32 \
   --disable-packet-filter \
-  --execution-endpoint=http://127.0.0.1:8651 \
+  --execution-endpoint=http://135.181.19.55:8651 \
   --jwt-secrets=./el-cl-genesis-data/jwt/jwtsecret \
   --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 \
   --subscribe-all-subnets \
   --metrics \
-  --metrics-address=127.0.0.1 \
+  --metrics-address=135.181.19.55 \
   --metrics-allow-origin=* \
   --metrics-port=5154 \
 
