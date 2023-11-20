@@ -1,6 +1,6 @@
 ./geth \
   --state.scheme=path \
-  --datadir=./execution-data-3 \
+  --datadir=./execution-data-4 \
   --http \
   --http.addr=0.0.0.0 \
   --http.vhosts=* \
@@ -13,12 +13,12 @@
   --ws.api=admin,engine,net,eth,web3,debug \
   --ws.origins=* \
   --allow-insecure-unlock \
-  --nat=none \
+  --nat=extip:127.0.0.1 \
   --verbosity=3 \
   --authrpc.port=8751 \
   --authrpc.addr=0.0.0.0 \
   --authrpc.vhosts=* \
-  --authrpc.jwtsecret=./el-cl-genesis-data/jwt/jwtsecret \
+  --authrpc.jwtsecret=./data/jwt/jwtsecret \
   --syncmode=full \
   --rpc.allow-unprotected-txs \
   --metrics \
@@ -26,5 +26,5 @@
   --metrics.port=9201 \
   --port=30503 \
   --networkid=28356 \
-  --bootnodes=enode://606388fde5c53aeb16a00046215d9722a12a1af9b0676e31edc818aa1e994dcdd77a01cbf9e529142f8797cfeb42d110d97845b5553f67e7fc31b43c9e4f73b0@127.0.0.1:30303 \
-  --maxpeers 1
+  --bootnodes=enode://6e2a2cf0ef9e7d366c01e78c85905c9638b55c1eefe6442c92652b44b08efac55fb50ddd9521c423f047b6516d8923b7705117ca556d17862c1d96c49987e4ea@127.0.0.1:57516
+

@@ -1,4 +1,3 @@
-
 lighthouse validator_client \
   --debug-level=info \
   --testnet-dir=./el-cl-genesis-data/custom_config_data \
