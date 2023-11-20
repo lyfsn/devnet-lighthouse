@@ -4,10 +4,10 @@ lighthouse beacon_node \
   --testnet-dir=./el-cl-genesis-data/custom_config_data \
   --disable-enr-auto-update \
   --enr-address=127.0.0.1 \
-  --enr-udp-port=9101 \
-  --enr-tcp-port=9101 \
+  --enr-udp-port=9109 \
+  --enr-tcp-port=9109 \
   --listen-address=127.0.0.1 \
-  --port=9101 \
+  --port=9109 \
   --http \
   --http-address=127.0.0.1 \
   --http-port=4100 \
