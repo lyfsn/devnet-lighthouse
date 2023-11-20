@@ -6,10 +6,10 @@ lighthouse beacon_node \
   --enr-address=135.181.19.55 \
   --enr-udp-port=9109 \
   --enr-tcp-port=9109 \
-  --listen-address=135.181.19.55 \
+  --listen-address=0.0.0.0 \
   --port=9109 \
   --http \
-  --http-address=135.181.19.55 \
+  --http-address=0.0.0.0 \
   --http-port=4109 \
   --http-allow-sync-stalled \
   --slots-per-restore-point=32 \
@@ -19,7 +19,7 @@ lighthouse beacon_node \
   --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 \
   --subscribe-all-subnets \
   --metrics \
-  --metrics-address=135.181.19.55 \
+  --metrics-address=0.0.0.0 \
   --metrics-allow-origin=* \
   --metrics-port=5154 \
 
