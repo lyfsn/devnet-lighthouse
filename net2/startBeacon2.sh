@@ -14,7 +14,7 @@ lighthouse beacon_node \
   --http-allow-sync-stalled \
   --slots-per-restore-point=32 \
   --disable-packet-filter \
-  --execution-endpoint=http://135.181.19.55:8651 \
+  --execution-endpoint=http://135.181.19.55:8659 \
   --jwt-secrets=./el-cl-genesis-data/jwt/jwtsecret \
   --suggested-fee-recipient=0x8943545177806ED17B9F23F0a21ee5948eCaa776 \
   --subscribe-all-subnets \
