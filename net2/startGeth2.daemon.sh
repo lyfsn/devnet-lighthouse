@@ -7,7 +7,7 @@ if [ -f "geth2.pid" ]; then
 fi
 
 # Start the app with nohup
-nohup ./startGeth2.sh > ./logs/geth2.log 2>&1 &
+nohup ./net2/startGeth2.sh > ./logs/geth2.log 2>&1 &
 
 # Save the PID
 echo $! > geth2.pid

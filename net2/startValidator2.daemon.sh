@@ -7,7 +7,7 @@ if [ -f "validator2.pid" ]; then
 fi
 
 # Start the app with nohup
-nohup ./startValidator2.sh > ./logs/validator2.log 2>&1 &
+nohup ./net2/startValidator2.sh > ./logs/validator2.log 2>&1 &
 
 # Save the PID
 echo $! > validator2.pid

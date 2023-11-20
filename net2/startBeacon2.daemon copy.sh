@@ -7,7 +7,7 @@ if [ -f "beacon2.pid" ]; then
 fi
 
 # Start the app with nohup
-nohup ./startBeacon2.sh > ./logs/beacon2.log 2>&1 &
+nohup ./net2/startBeacon2.sh > ./logs/beacon2.log 2>&1 &
 
 # Save the PID
 echo $! > beacon2.pid
